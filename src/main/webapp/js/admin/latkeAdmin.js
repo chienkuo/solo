@@ -680,7 +680,7 @@ Util.initUploadFile = function (obj) {
         multipart: true,
         pasteZone: obj.pasteZone,
         dropZone: obj.pasteZone,
-        url: "https://up.qbox.me/",
+        url: "https://up-na0.qbox.me", // 北美存储
         paramName: "file",
         add: function (e, data) {
             if (data.files[0].name) {
@@ -1072,7 +1072,7 @@ admin.article = {
         var filename = "";
         $('#' + id).fileupload({
             multipart: true,
-            url: "https://up.qbox.me",
+            url: "https://up-na0.qbox.me",
             add: function (e, data) {
                 filename = data.files[0].name;
 

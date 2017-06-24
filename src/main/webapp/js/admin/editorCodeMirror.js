@@ -86,7 +86,7 @@ Util.initUploadFile = function (obj) {
         multipart: true,
         pasteZone: obj.pasteZone,
         dropZone: obj.pasteZone,
-        url: "https://up.qbox.me/",
+        url: "https://up-na0.qbox.me", //北美存储
         paramName: "file",
         add: function (e, data) {
             if (data.files[0].name) {

@@ -41,7 +41,7 @@ admin.article = {
         var filename = "";
         $('#' + id).fileupload({
             multipart: true,
-            url: "https://up.qbox.me",
+            url: "https://up-na0.qbox.me",// 北美存储
             add: function (e, data) {
                 filename = data.files[0].name;
 
